@@ -220,3 +220,19 @@ h4 {
 .form-contact button:hover {
   background-color: #e67600;
 }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #fb8500;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.3vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
