@@ -111,3 +111,26 @@ h1 {
 .menu2 li a:hover {
   color: #555;
 }
+
+.layout2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+}
+
+.grow2 {
+  flex-grow: 1;
+}
+
+.grow2 img {
+  width: 800px;
+  height: auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #fc8400;
+}
