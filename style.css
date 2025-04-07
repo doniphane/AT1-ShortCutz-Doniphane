@@ -45,3 +45,35 @@
 .menu li a:hover {
   color: #555;
 }
+
+.layout {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+.grow1 img {
+  width: 800px;
+  height: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+
+.hero-btn {
+  background-color: #fb8500;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
