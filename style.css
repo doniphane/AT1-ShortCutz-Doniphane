@@ -276,7 +276,7 @@ footer p {
 
   .menu,
   .menu2 {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 
