@@ -144,7 +144,6 @@ h2 {
 
 .grow3 {
   flex-grow: 1;
-  padding: 10px;
 }
 
 .grow3 img {
@@ -156,4 +155,68 @@ h3 {
   text-transform: uppercase;
   font-size: 2vw;
   color: #fc8400;
+}
+
+.layout4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  gap: 20px;
+}
+
+.grow4 {
+  flex-grow: 1;
+}
+
+.grow4 img {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 2vw;
+  color: #fc8400;
+  margin-bottom: 10px;
+}
+
+.form-contact {
+  background-color: #87ceeb;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+.form-contact input,
+.form-contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-contact textarea {
+  resize: none;
+}
+
+.form-contact button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff8c00;
+  color: black;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.form-contact button:hover {
+  background-color: #e67600;
 }
